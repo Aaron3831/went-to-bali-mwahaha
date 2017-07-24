@@ -1,9 +1,19 @@
 # README
 
-E-commerce site. Uses `bcrypt` and `materialize`. There's a seed file. Set up your own admin. If you have questions, I'll be in Bali with no email. Ask someone else.
+### Specs
+* Users can view product details
+* Users can add items to their cart and checkout
+* Users can delete items from their cart
 
-To set up:
+### AJAX
+* Product details
 
-* `rake db:setup`
-
-* Sorry, didn't get around to tests. It mostly works. There might be a few bugs.
+## Setup and Installation
+1. Clone this project into your directory
+2. Bundle all gems to ensure that application dependencies are running
+  bundle install
+4. Change into this directory and create and initialize the database
+  cd went-to-bali-mwahaha
+  rake db:create
+  rake db:migrate
+  rails s
