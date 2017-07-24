@@ -4,6 +4,7 @@
 * Users can view product details
 * Users can add items to their cart and checkout
 * Users can delete items from their cart
+* Add validation for adding items to cart
 
 ### AJAX
 * Product details
