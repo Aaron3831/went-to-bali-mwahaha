@@ -1,2 +1,4 @@
-$('.section').show().after('<%= j render ("detail")%>')
-$('.all_products_link').hide()
+$(document).ready(function() {
+   $('#show_detail_<%=@product.id%>').html('<%= j render "detail", :product=>@product %>')
+   $('#display_details_<%=@product.id%>').hide()
+});
