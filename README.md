@@ -4,10 +4,20 @@
 * Users can view product details
 * Users can add items to their cart and checkout
 * Users can delete items from their cart
-* Add validation for adding items to cart
 
 ### AJAX
-* Product details
+* Product details toggle
+* Add to cart
+* Delete item from cart
+
+### Refactoring
+* Add validation for entering only positive cart amount
+* Add validation for product name
+* Add validation for product price
+* Add validation for product description
+* Flash messages for user and session controller considering signup, signin and signout
+* Row height for products standardized
+
 
 ## Setup and Installation
 1. Clone this project into your directory
